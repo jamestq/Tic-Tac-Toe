@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page-wrapper{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: black solid 2px;
+}
+
+#game-window{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+#game-button{
+    margin-top: 30px;
+}
+
+.game_button{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
